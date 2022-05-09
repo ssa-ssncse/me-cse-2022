@@ -1,5 +1,99 @@
 * <<<CP1204>>> SECURITY
 :properties:
-:author: 
-:date: 
+:author: Dr. S. Saraswathi 
+:date: 09-05-2022 
 :end:
+
+#+startup: showall
+{{{title-tab}}}
+| CODE    | COURSE TITLE    | L | T | P | E | C |
+| 103 | CYBER SECURITY  | 3 | 0 | 3 | 0 | 4 |
+
+
+** COURSE OBJECTIVES
+- To get introduced to cyber security cybercrime and law
+- To understand the attacks and tools
+- To understand the information gathering 
+- To understand how to detect an attack 
+- To understand how to prevent an attack.
+
+{{{unit}}}
+|UNIT I |  INTRODUCTION TO CYBER SECURITY | 9 |
+Cyber Security the need of the hour -- History of Internet -- Impact of Internet -- CIA Triad; Reason for Cyber Crime -- Need for cyber security -- History of cyber crime;  Cybercriminals -- Classifications of Cybercrimes -- A Global Perspective on Cybercrimes; Need Cyberlaws -- The Indian IT Act -- Cybercrime and Punishment.
+
+{{{unit}}}
+|UNIT II | ATTACKS AND COUNTERMEASURES | 6 |
+Malicious attack Threats and Vulnerabilities: Scope of cyber-attacks –- Security breach -- Types of malicious attack --  Malicious software -- Common attack vectors -- Social Engineering attack -- Wireless Network attack -- Web application attack -- Attack tools -- Countermeasures.
+
+{{{unit}}}
+|UNIT III | RECONNAISSANCE | 5 |
+The Harvester -- Whois -- Netcraft -- Host -- Extracting Information from DNS -- Extracting Information from E-mail Servers -- Social Engineering Reconnaissance; Scanning -- Port Scanning -- Network Scanning and Vulnerability Scanning -- Understand Scanning Methodology -- Ping Sweep Techniques -- Nmap Command Switches -- SYN -- Stealth -- XMAS -- NULL -- IDLE -- FIN Scans -- Banner Grabbing and OS Fingerprinting Techniques.
+
+{{{unit}}}
+|UNIT IV | INTRUSION DETECTION   | 5 |
+Intrusion Detection: Host-Based Intrusion Detection -- Network-Based Intrusion Detection -- Distributed or Hybrid Intrusion Detection -- Intrusion Detection Exchange Format -- Honeypots -- Example System Snort.
+
+{{{unit}}}
+|UNIT V | INTRUSION PREVENTION   | 5 |
+ Firewalls and Intrusion Prevention Systems:The Need for Firewalls -- Firewall Characteristics and Access Policy -- Types of Firewalls -- Firewall Basing -- Firewall Location and Configurations -- Intrusion Prevention Systems -- Example Unified Threat Management Products.
+
+#+begin_comment
+
+#+end_comment
+
+\hfill *Theory Periods: 30* 
+
+** SUGGESTIVE EXPERIMENTS
+1. Install Kali Linux on virtual box
+2. Explore Kali Linux and bash scripting
+3. Perform open source intelligence gathering using Netcraft, Whois Lookups, DNS Reconnaissance
+4. Gather information using Harvester  and Maltego
+5. Understand namp commands
+6. Scan a target Using nmap
+7. Install metasploitable2 on the virtual box and search for unpatched vulnerability
+8. Use Metasploit to exploit an unpatched vulnerability
+9. Install linux server on the virtual box and install ssh in it
+10. Brute force attack on the  linux server using hydra
+11. Real-time network traffic analysis and data packet logging using snort
+
+
+
+\hfill *Practical Periods: 30*
+
+\hfill *Total Periods: 60*
+
+** COURSE OUTCOMES
+After the completion of this course, students will be able to 
+1. Understand the basics of cyber security, cyber crime and law (K2)
+2. Understand the various types of attack and tools to launch it (K2)
+3. Perform information gathering (K3)
+4. Perform intrusion detection (K3)
+5.  Perform intrusion detection (K3)
+6. Set up a cyber security environment to perform security analysis (K3).
+
+
+
+
+** REFERENCE BOOKS
+1. Anand Shinde, ``Introduction to Cyber Security Guide to the World of Cyber Security'', Notion Press, 2021. 
+2. Nina Godbole, Sunit Belapure, ``Cyber Security: Understanding Cyber Crimes, Computer Forensics and Legal Perspectives'', Wiley publisher, 2011.
+3. David Kim, Michael G. Solomon, ``Fundamentals of Information Systems Security'', Jones & Bartlett Learning publisher, 2013, 2021.
+4. Patrick Engebretson, ``The Basics of Hacking and Penetration Testing Ethical Hacking and Penetration Testing Made Easy'', Elsevier, 2011.
+5. Kimberly Graves, ``CEH Official Certified Ethical Hacker Review Guide'', Wiley publisher, 2007. 
+6. William Stallings, Lawrie Brown, ``Computer Security Principles and Practice'', Third Edition, Pearson Education, 2015 . 
+7. Georgia Weidman, ``Penetration testing A Hands-On Introduction to Hacking'' San Francisco, 2014.
+
+#+begin_comment
+BOOK 1: Introduction to Cyber Security Guide to the World of Cyber Security By Anand Shinde • 2021 
+unit 1: chapter 1( 1.1,1.2,1.3) and 2(2.2,2.3,2.4)
+BOOK 2: Cyber Security Nina Godbole, Sunit Belapure
+Chapter1(Who are Cybercriminals?  Classifications of Cybercrimes, A Global Perspective on Cybercrimes)   unit 1:Chapter 5(Need Cyberlaws, The Indian IT Act, Cybercrime and Punishment )
+Book3.1: Fundamentals of Information Systems Security By David Kim, Michael G. Solomon • 2013
+Book 3.2: Fundamentals of Information Systems Securityn By David Kim, Michael G. Solomon •  unit 2 (Chapter 3 -40 pages) 2021
+Book 4 : The Basics of Hacking and Penetration Testing Authors: Patrick Engebretson (unit 3 downloaded chapter 2- 14 pages)
+BOOK 5:  CEH Official Certified Ethical Hacker Review Guide, Kimberly Graves ( unit 3: chapter 3 – 10 pages)
+Book 6: Computer Security Principles and Practice Third Edition William Stallings  (unit 4 –chapter 8 unit 5- chapter 9)
+ 
+Book7: Penetration testing A Hands-On Introduction to Hacking San Francisco by Georgia Weidman 2014 (Lab)
+
+#+end_comment
